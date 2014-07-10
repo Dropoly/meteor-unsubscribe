@@ -1,0 +1,11 @@
+{
+  "name": "unsubscribe",
+  "description": "Unsubscribe from emails",
+  "homepage": "",
+  "author": "Andrew Hazlett <andrew@hazlett.me> (http://andrewhazlett.me)",
+  "version": "0.0.1",
+  "git": "",
+  "packages": {
+    "iron-router": {}
+  }
+}
