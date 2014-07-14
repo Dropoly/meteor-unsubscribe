@@ -7,7 +7,8 @@ Meteor.methods
 # takes and returns an array of strings
 rejectUnsubscribers = (emails) ->
   unsubscribers = Unsubscribers.find(email: $in: emails).fetch()
-  _.reject emails, (email) -> _.contains unsubscribers, email: email
+  isUnsubscriber = (email) -> _.contains (_.pluck unsubscribers, 'email'), email
+  _.reject emails, isUnsubscriber
 
 sendEmail = _.bind Email.send, Email
 
