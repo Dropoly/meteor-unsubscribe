@@ -1,11 +1,9 @@
 {
   "name": "unsubscribe",
   "description": "Unsubscribe from emails",
-  "homepage": "",
+  "homepage": "https://github.com/andrewdhazlett/meteor-unsubscribe",
   "author": "Andrew Hazlett <andrew@hazlett.me> (http://andrewhazlett.me)",
-  "version": "0.0.1",
-  "git": "",
-  "packages": {
-    "iron-router": {}
-  }
+  "version": "0.1.0",
+  "git": "https://github.com/andrewdhazlett/meteor-unsubscribe.git",
+  "packages": {}
 }
