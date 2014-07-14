@@ -3,7 +3,7 @@
   "description": "Unsubscribe from emails",
   "homepage": "https://github.com/andrewdhazlett/meteor-unsubscribe",
   "author": "Andrew Hazlett <andrew@hazlett.me> (http://andrewhazlett.me)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "git": "https://github.com/andrewdhazlett/meteor-unsubscribe.git",
   "packages": {}
 }
